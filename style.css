@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../img/bg.jpg");
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+}
+
+.cabecalho{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1190px;
+    margin-top: 27px;
+    margin-left: 56px;
+}
+
+.cabecalho a{  
+    display: inline-block;
+    background: #e50914;
+    color: white;
+    align-self: flex-start;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 3px;
+
+}
+
+.main{
+    height: 652px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.main-child{
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 138px;
+    margin-left: 10px;
+}
+
+.main h1{
+    max-width: 700px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main-child-subtitulo{
+    font-size: 28px;
+    font-weight: 500;
+    
+}
+
+.main-child-subtitulo2{
+    font-size: 20px;
+}
+
+.form-cta{
+    display: grid;
+    grid-template-columns: 460px 250px;
+    margin-top: 20px;
+    z-index: 1000;
+}
+
+.form-cta input{
+    padding: 20px 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 500px;
+}
+
+.form-cta button{
+    background-color: #e50914;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    width: 190px;
+    margin-left: 65px;
+
+}
+
+.gradiente{
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
